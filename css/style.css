@@ -300,6 +300,9 @@ header {
   border-radius: 25px;
 }
 @media (max-width: 991px) {
+  .main-content{
+    top: calc(50% - 57.39px);
+  }
   .main-title {
     font-size: 30px;
   }
@@ -631,10 +634,14 @@ input[type="file"] {
   }
   .form-head {
     font-size: 20px;
+    text-align: center;
   }
   .form-cont .nav-link {
     width: 140px;
     height: 42px;
+  }
+  .form-cont .nav-tabs{
+    justify-content: center;
   }
 }
 /*                           request-section                  */
@@ -854,7 +861,7 @@ footer {
     align-items: center;
     font-size: 24px;
     font-weight: 700;
-    color: var(--black-color);
+    color: var(--main-color);
     background-color: transparent;
     text-decoration: none !important;
     outline: none !important;
@@ -862,7 +869,7 @@ footer {
   }
   .close-menu:hover,
   .menu-bars:hover {
-    color: var(--black-color);
+    color: var(--main-color);
   }
   .navgition {
     display: block;
