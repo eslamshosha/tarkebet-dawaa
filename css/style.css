@@ -215,12 +215,12 @@ header {
 .first-btn:hover {
   text-decoration: none;
   color: var(--white-color);
-  opacity: 0.7;
+  background-color: #335cc3;
 }
 .second-btn:hover {
   text-decoration: none;
   color: var(--main-color);
-  opacity: 0.7;
+  background-color: #87f7cb;
 }
 .navgition .btn-cont {
   display: none;
@@ -300,7 +300,7 @@ header {
   border-radius: 25px;
 }
 @media (max-width: 991px) {
-  .main-content{
+  .main-content {
     top: calc(50% - 57.39px);
   }
   .main-title {
@@ -585,7 +585,6 @@ input[type="file"] {
   -webkit-box-orient: vertical;
 }
 .form-input:focus {
-  border-color: var(--main-hover);
   outline: 0;
 }
 .form-btn-cont {
@@ -616,9 +615,8 @@ input[type="file"] {
 @media (hover: hover) {
   .form-btn:hover {
     text-decoration: none;
-    color: var(--white-color);
-    background-color: var(--main-color);
-    border-color: var(--main-hover);
+    color: var(--main-color);
+    background-color: #87f7cb;
   }
 }
 @media (max-width: 991px) {
@@ -640,7 +638,7 @@ input[type="file"] {
     width: 140px;
     height: 42px;
   }
-  .form-cont .nav-tabs{
+  .form-cont .nav-tabs {
     justify-content: center;
   }
 }
@@ -687,15 +685,13 @@ input[type="file"] {
   margin-top: 20px;
   outline: none !important;
   cursor: pointer;
-  border: 2px solid var(--main-hover);
   transition: all 0.4s ease-in-out;
 }
 @media (hover: hover) {
   .join-link:hover {
     text-decoration: none;
-    color: var(--white-color);
-    background-color: var(--main-color);
-    border-color: var(--main-hover);
+    color: var(--main-color);
+    background-color: #87f7cb;
   }
 }
 @media (max-width: 991px) {
